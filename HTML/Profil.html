@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil - Fatahillah</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: blue;
+        }
+        .profile {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .profile img {
+            width: 120px;
+            height: auto;
+            margin-right: 15px;
+            border: 1px solid #333;
+        }
+        .intro {
+            max-width: 600px;
+        }
+        h2 {
+            margin-top: 30px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        form input, form textarea {
+            display: block;
+            margin: 5px 0 10px 0;
+            padding: 5px;
+            width: 300px;
+        }
+        form textarea {
+            height: 80px;
+        }
+        button {
+            padding: 5px 10px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 6px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu Navigasi -->
+    <nav>
+        <a href="Day7(Table).html">Homepage</a> |
+
+    </nav>
+
+    <!-- Profil -->
+    <div class="profile">
+        <img src="Kumpulan gambar/Crop Merah100kb.jpg" alt="Foto Profil">
+        <div class="intro">
+            <h1>Selamat Datang!</h1>
+            <p>
+                Halo perkenalkan, saya <b>Muhammad Fatahillah Putra Joni</b>.  
+                Saya seorang lulusan dari <b>IPB University </b> jurusan <b><i>Ilmu dan Teknologi Kelautan</i></b> 
+                dengan fokus pada GIS dan Remote Sensing. Pengalaman saya terakhir adalah 
+                <i>freelance</i> di Geochem Surveys International sebagai Hydrographic Surveyor
+                dan bekerja di Enveritas sebagai Map Analyst.  
+                Saya memiliki minat di bidang <b>WebGIS, Data Analysis, dan Blue Economy</b>.  
+                Walaupun ilmu saya masih berkembang, saya berharap apa yang saya bagikan bisa bermanfaat bagi banyak orang.
+            </p>
+        </div>
+    </div>
+
+    <!-- Form Komentar -->
+    <h2>Form Komentar</h2>
+    <form>
+        <label>Nama:</label>
+        <input type="text" name="nama" required>
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <label>Komentar:</label>
+        <textarea name="komentar" required></textarea>
+        <button type="submit">Kirim Komentar</button>
+    </form>
+
+    <!-- Daftar Komentar -->
+    <h2>Daftar Komentar</h2>
+    <table>
+        <thead>
+            <tr>
+                <th> No</th>
+                <th>Nama</th>
+                <th>Email</th>
+                <th>Komentar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
